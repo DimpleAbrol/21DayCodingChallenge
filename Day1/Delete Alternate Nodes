@@ -1,0 +1,14 @@
+class Solution {
+    
+    public void deleteAlternate (Node head){
+        while(head != null)
+        {
+            System.out.print(head.data+" ");
+            if(head.next != null)
+                head = head.next.next;
+            else
+                break;
+        }
+        
+    }
+    }
